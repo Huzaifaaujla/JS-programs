@@ -54,8 +54,8 @@
 //      }
 
 // }
-    
-    
+
+
 
 // function check(){
 //     let number=document.getElementById("num").value;
@@ -70,21 +70,134 @@
 //     }
 
 
-    function leapYear(){
-        let number=document.getElementById("num").value;
-         let ans=document.getElementById("ans1")
-         if(parseInt(number)%4==0){
-            ans.innerHTML="This Year is Leap Year"
-         }
-         else{
-            ans.innerHTML="This Year is not Leap Year"
-    
-         }
-        }
+//  function leapYear(){
+//      let number=document.getElementById("num").value;
+//       let ans=document.getElementById("ans1")
+//       if(parseInt(number)%4==0){
+//          ans.innerHTML="This Year is Leap Year"
+//       }
+//       else{
+//          ans.innerHTML="This Year is not Leap Year"
+
+//       }
+//      }
+
+
+//    function alphabat(){
+//       let character=document.getElementById("num").value;
+//       let ans=document.getElementById("ans1")
+//       if(character>="a" && character<="z"){
+//       ans.innerHTML="This is Alphabat"
+//    }
+//       else{
+//       ans.innerHTML="error this is not alphabat"
+//    }
+// }
+
+
+// function vowel&consonant() {
+//    let character = document.getElementById("num").value;
+//    let ans = document.getElementById("ans1")
+//    if (character >= "a" && character <= "z" && character == "a" || character == "e" || character == "i" || character == "o" || character == "u") {
+//       ans.innerHTML = "vowel Alphabat"
+//    }
+//    else if (character >= "a" && character <= "z") {
+//       ans.innerHTML = "consonant Alphabat"
+//    }
+//    else {
+//       ans.innerHTML = "error not Alphabat"
+//    }
+// }
+
+// function alphabatchecker(){
+//          let character=document.getElementById("num").value;
+//          let ans=document.getElementById("ans1")
+//          if(character>="a" && character<="z"){
+//          ans.innerHTML="This is lower Alphabat"
+//       }
+//          else if(character>="A" && character<="Z"){
+//          ans.innerHTML="This is uppercase alphabat"
+//       }
+//       else{
+//          ans.innerHTML="This is not alphabat"
+//       }
+//    }
+
+
+// function weeks(){
+//          let week=document.getElementById("num").value;
+//          let ans=document.getElementById("ans1")
+//          if(week==1){
+//             ans.innerHTML="Sunday"
+//          }
+//          else if(week==2){
+//             ans.innerHTML="Monday"
+//          }
+//          else if(week==3){
+//             ans.innerHTML="Tuseday"
+//          }
+//          else if(week==4){
+//             ans.innerHTML="Wednesday"
+//          }
+//          else if(week==5){
+//             ans.innerHTML="Thursday"
+//          }
+//          else if(week==6){
+//             ans.innerHTML="Friday"
+//          }
+//          else if(week==7){
+//             ans.innerHTML="Saturday"
+//          }
+//          else{
+//          ans.innerHTML="Error Please correct"
+//       }
+//    }
 
 
 
 
-
+// function Month(){
+//          let Month=document.getElementById("num").value;
+//          let ans=document.getElementById("ans1")
+//          if(Month==1){
+//             ans.innerHTML="31 days"
+//          }
+//          else if(Month==2){
+//             ans.innerHTML="28 days"
+//          }
+//          else if(Month==3){
+//             ans.innerHTML="31 days"
+//          }
+//          else if(Month==4){
+//             ans.innerHTML="30 days"
+//          }
+//          else if(Month==5){
+//             ans.innerHTML="31 days"
+//          }
+//          else if(Month==6){
+//             ans.innerHTML="30 days"
+//          }
+//          else if(Month==7){
+//             ans.innerHTML="31 days"
+//          }
+//          else if(Month==8){
+//             ans.innerHTML="31 days"
+//          }
+//          else if(Month==9){
+//             ans.innerHTML="30 days"
+//          }
+//          else if(Month==10){
+//             ans.innerHTML="31 days"
+//          }
+//          else if(Month==11){
+//             ans.innerHTML="30 days"
+//          }
+//          else if(Month==12){
+//             ans.innerHTML="31 days"
+//          }
+//          else{
+//          ans.innerHTML="Error Please correct"
+//       }
+//    }
 
 
