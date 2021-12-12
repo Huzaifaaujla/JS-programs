@@ -155,7 +155,6 @@
 
 
 
-
 // function Month(){
 //          let Month=document.getElementById("num").value;
 //          let ans=document.getElementById("ans1")
@@ -201,3 +200,93 @@
 //    }
 
 
+// function Marks(){
+//          let book1=document.getElementById("subject1").value;
+//          let book2=document.getElementById("subject2").value;
+//          let book3=document.getElementById("subject3").value;
+//          let book4=document.getElementById("subject4").value;
+//          let book5=document.getElementById("subject5").value;
+//          let ans=document.getElementById("ans1");
+//          let total=((parseInt(book1)+parseInt(book2)+parseInt(book3)+parseInt(book4)+parseInt(book5))/500)*100;
+//          if(total>=90){
+//             ans.innerHTML="Grade A";
+//          }
+//          else if(total>=80){
+//             ans.innerHTML="Grade B";
+//          }
+//          else if(total>=70){
+//             ans.innerHTML="Grade C";
+//          }
+//          else if(total>=60){
+//             ans.innerHTML="Grade D";
+//          }
+//          else if(total>=40){
+//             ans.innerHTML="Grade E";
+//          }
+//          else{
+//             ans.innerHTML="Grade F";
+//          }
+// }
+
+
+
+// function totalSalary(){
+//    let salary=document.getElementById("salary").value;
+//    let ans=document.getElementById("answer");
+//    if(parseInt(salary)<=10000){
+//       let hra=((20/100)*parseInt(salary));
+//       let da=((80/100)*parseInt(salary));
+//       ans.innerHTML="net Amount :"+(parseInt(salary)+parseInt(hra)+parseInt(da))
+//    }
+//    else if(parseInt(salary)<=20000){
+//       let hra=(25/100)*parseInt(salary);
+//       let da=(90/100)*parseInt(salary);
+//       ans.innerHTML="net Amount :"+(parseInt(salary)+parseInt(hra)+parseInt(da))
+//    }
+//    else{
+//       let hra=(30/100)*parseInt(salary);
+//       let da=(95/100)*parseInt(salary);
+//       ans.innerHTML="net Amount :"+(parseInt(salary)+parseInt(hra)+parseInt(da))
+//    }
+
+// }
+
+// function totalBill(){
+//    let Bill=document.getElementById("bill").value;
+//    let ans=document.getElementById("answer");
+//    if(parseInt(Bill)<=50){
+//       let electricbill=(parseInt(Bill)*0.50);
+//       let additinal=(20/100)*electricbill
+//       ans.innerHTML="net Bill :"+(electricbill+additinal);
+//    }
+//    else if(parseInt(Bill)<=100){
+//       let electricbill=(parseInt(Bill)*0.75);
+//       let additinal=(20/100)*electricbill
+//       ans.innerHTML="net Bill :"+(electricbill+additinal);
+//    }
+//    else if(parseInt(Bill)>=100 && parseInt(Bill)<=249){
+//       let electricbill=(parseInt(Bill)*1.20);
+//       let additinal=(20/100)*electricbill
+//       ans.innerHTML="net Bill :"+(electricbill+additinal);
+//    }
+//    else if(parseInt(Bill)>=250){
+//       let electricbill=(parseInt(Bill)*1.50);
+//       let additinal=(20/100)*electricbill
+//       ans.innerHTML="net Bill :"+(electricbill+additinal);
+//    }
+// }
+
+
+function checkword(){
+   let word=document.getElementById("alphabat").value;
+   let ans=document.getElementById("answer");
+   if(word>="a" && word<="z"){
+      ans.innerHTML="this alphabat"; 
+   }
+   else if(word>=0 && word<=9){
+      ans.innerHTML="this Number"; 
+   }
+   else{
+      ans.innerHTML="this special Character"; 
+   }
+}
