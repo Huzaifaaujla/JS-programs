@@ -277,16 +277,30 @@
 // }
 
 
-function checkword(){
-   let word=document.getElementById("alphabat").value;
+// function checkword(){
+//    let word=document.getElementById("alphabat").value;
+//    let ans=document.getElementById("answer");
+//    if(word>="a" && word<="z"){
+//       ans.innerHTML="this alphabat"; 
+//    }
+//    else if(word>=0 && word<=9){
+//       ans.innerHTML="this Number"; 
+//    }
+//    else{
+//       ans.innerHTML="this special Character"; 
+//    }
+// }
+
+
+function notecalculator(){
+   let note=document.getElementById("note").value;
    let ans=document.getElementById("answer");
-   if(word>="a" && word<="z"){
-      ans.innerHTML="this alphabat"; 
+   if(note<=500){
+      let hundred="Five Hundred note :"+Math.floor((note/500))+"<br>"+"Hundred note :"+Math.floor(note/100)+"</br>"+"50 note :"+Math.floor( ((note%100)/50) )+"</br>"+"10 note :"+Math.floor( (((note%100)%50)/10) )+"</br>"+"Five Note :"+Math.floor( ((((note%100)%50)%10)/5) );
+      ans.innerHTML=hundred
    }
-   else if(word>=0 && word<=9){
-      ans.innerHTML="this Number"; 
-   }
-   else{
-      ans.innerHTML="this special Character"; 
-   }
+  else{
+   let hundred="1 thousand note :"+Math.floor((note/1000))+"<br>"+"Five Hundred note :"+Math.floor( ((note%1000)/500) )+"<br>"+"Hundred note :"+Math.floor( (((note%1000)%500)/100) )+"</br>"+"50 note :"+Math.floor( ((((note%1000)%500)%100)/50) )+"</br>"+"10 note :"+Math.floor( (((((note%1000)%500)%100)%50)/10) )+"</br>"+"Five Note :"+Math.floor( ((((((note%1000)%500)%100)%50)%10)/5) );
+   ans.innerHTML=hundred
+  }
 }
